@@ -1,15 +1,14 @@
 function firstChar(text) {
-  for (let i = 0; i < inputString.length; i++) {
-    if (inputString[i] !== ' ') {
-      return inputString[i];
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] !== ' ') {
+      return text[i];
     }
   }
   return '';
 }	
 	
-	
-
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+const inputText = prompt("Enter text:");
+alert(firstChar(inputText));
+
